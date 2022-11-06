@@ -5,7 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Attach",
+            "name": "Launch React in Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:6099",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Server",
             "port": 9229,
             "request": "attach",
             "skipFiles": [
